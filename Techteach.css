@@ -1,0 +1,67 @@
+/* bas till ALLA SIDOR */
+html {
+   font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+#container {
+    width: 800px;
+    min-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 0 10px #aeaeae;
+    clear: both;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: skyblue;
+}
+
+header > h1 {
+    text-transform: uppercase;
+    font-size: 90px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    margin: 0px;
+    text-shadow: 2px 2px 0 #fff;
+}
+
+header > p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    padding-bottom: 20px;
+    text-align: right;
+    padding-right: 90px;
+}
+
+nav > .link {
+    width: 25%;
+    padding: 10px 0;
+    background-color: blue;
+    float: left;
+    color: ghostwhite;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav > .link:hover {
+    color: darkblue;
+    background-color: azure;
+}
+
+.text {
+    padding: 80px;
+}
+
+section > .text > h2 {
+    margin-top: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
